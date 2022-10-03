@@ -1,0 +1,17 @@
+- Description: it's an app to publish your store, company, or a business, other users can see your store, and buy a service or a product, then, 
+this app has two types of users, client and seller
+
+
+
+-client: can buy a product or service, cancel tbe product or service, putue it, add it on a shopping cart.
+         shopping history.
+        
+-seller: can add N number of stores in it's profile, can add N number of products and services, to edite them or delete them.
+         cann edit the status of a product (released, finished, in comming or canceled), and can hidd X producto of it's inventory
+         sales history
+         
+both users: can search stores on home page (there are all of sotres) by name, city, type or street, to buy products or services, to save them on a 
+              shopping car, they also can search products and services by type or name, to comment into the page of each product, and other users
+              can respond.
+
+Main pages: Home, Directory, shopping cart, user profile. 
