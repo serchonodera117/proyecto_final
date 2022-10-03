@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/estilo_historial"
+    android:layout_width="350dp"
+    android:layout_height="115dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="10dp"
+    card_view:cardBackgroundColor="#FFFF"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/historial_imagen"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            card_view:srcCompat="@drawable/ic_launcher_background" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/historial_NombreProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Nombre Producto"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/historial_NombreNegocio"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del negocio"
+                android:textSize="7sp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/historial_NombreCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del negocio"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/historial_descripcion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="descripcion"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                />
+            <TextView
+                android:id="@+id/historial_Estado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:id="@+id/historial_Precio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:text="Total: $0.00"
+                android:textColor="#000000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/historial_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xx/xx/xxxx"
+                android:textSize="10sp"
+                android:layout_marginLeft="5dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

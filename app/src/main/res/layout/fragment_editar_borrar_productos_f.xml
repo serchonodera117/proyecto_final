@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragmentos.EditarBorrarProductos_f">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+
+            <ImageButton
+                android:id="@+id/informacionProducto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFDFD"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:src="@android:drawable/ic_menu_info_details"
+                tools:ignore="SpeakableTextPresentCheck"
+                app:tint="#281DBC"
+                android:layout_gravity="right"
+                android:layout_marginRight="50dp"/>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ver página del producto"
+                android:textSize="10sp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre del producto " />
+
+            <EditText
+                android:id="@+id/editarNombreProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="producto . . ."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Nombre de la sección " />
+
+            <EditText
+                android:id="@+id/editarSeccionProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Sección. . ."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Descripción del producto" />
+
+            <EditText
+                android:id="@+id/editarDescripcionProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Descripción. . ."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tipo de oferta" />
+
+            <Spinner
+                android:id="@+id/editarspinnerOferta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Imagen del producto" />
+
+            <EditText
+                android:id="@+id/editarImagenProducto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Url producto. . ."
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Visibilidad del producto"
+                android:layout_gravity="right"/>
+
+            <Switch
+                android:id="@+id/editarVisibilidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="x" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cantidad" />
+
+                    <EditText
+                        android:id="@+id/editarExistenciaProducto"
+                        android:layout_width="101dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Cantidad. . . "
+                        android:inputType="number"
+                        android:minHeight="48dp"
+                        android:text="0"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Precio" />
+
+                    <EditText
+                        android:id="@+id/editarPrecioProducto"
+                        android:layout_width="101dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Precio. . ."
+                        android:inputType="numberDecimal"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck"
+                        tools:text="0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Envío" />
+
+                    <EditText
+                        android:id="@+id/editarPrecioEnvio"
+                        android:layout_width="101dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="Cargo. . ."
+                        android:inputType="numberDecimal"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck"
+                        tools:text="0" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/BorrarProducto"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#E40909"
+                    android:src="@android:drawable/ic_menu_delete"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <ImageButton
+                    android:id="@+id/cometerEdicion"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="#6B18F1"
+                    android:minHeight="48dp"
+                    android:src="@android:drawable/ic_menu_edit"
+                    app:tint="#FFFFFF"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroVendedor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/Volver_v"
+                        android:layout_width="61dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/white"
+                        app:srcCompat="?attr/actionModeCloseDrawable"
+                        app:tint="@color/design_default_color_secondary_variant"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/textView3b"
+                        android:layout_width="322dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="8dp"
+                        android:layout_weight="1"
+                        android:text="Volver"
+                        android:textColor="#726AE4" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Nombre de usuario" />
+
+                <EditText
+                    android:id="@+id/NombreVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="username. . ." />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Foto de perfil" />
+
+                <EditText
+                    android:id="@+id/urlFotoVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Url . . ."
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Municipio Del Cliente" />
+
+                <Spinner
+                    android:id="@+id/MunicipioVendedor"
+                    android:layout_width="309dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Colonia del cliente" />
+
+                <EditText
+                    android:id="@+id/ColoniaVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="Colonia" />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Domicilio del cliente" />
+
+                <EditText
+                    android:id="@+id/DomicilioVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="Domicilio #00" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Correo del usuario" />
+
+                <EditText
+                    android:id="@+id/CorreoVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="correo@ejemplo.com"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contraseña" />
+
+                <EditText
+                    android:id="@+id/ContrasenaVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="******"
+                    android:inputType="textPassword" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telefono" />
+
+
+                <EditText
+                    android:id="@+id/TelefonoVendedor"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="5dp"
+                    android:hint="Teléfono"
+                    android:inputType="phone" />
+
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre del negocio"/>
+
+                        <EditText
+                            android:id="@+id/NombreNegocio"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:hint="Nombre del negocio" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Imagen del negocio"/>
+                        <EditText
+                            android:id="@+id/urlImagenNegocio"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:hint="Url del Logo" />
+
+                        <TextView
+                            android:id="@+id/textformaspago"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Formas de pago"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                        <CheckBox
+                            android:id="@+id/EfectivoSelect"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Efectivo" />
+
+                        <CheckBox
+                            android:id="@+id/TarjetaSelect"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tarjeta" />
+
+                        <CheckBox
+                            android:id="@+id/OxxoSelect"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Pago en oxxo" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Tipos de oferta"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                        <CheckBox
+                            android:id="@+id/OfertaProducto"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Venta de productos" />
+
+                        <CheckBox
+                            android:id="@+id/OfertaServicio"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Venta de servicios" />
+
+
+
+
+                        <TextView
+                            android:id="@+id/textView2b"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Municipio del negocio"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                        <Spinner
+                            android:id="@+id/MunicipioNegocio"
+                            android:layout_width="309dp"
+                            android:layout_height="48dp"
+                            android:layout_gravity="center"
+                            tools:ignore="SpeakableTextPresentCheck"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Colonia del negocio"/>
+                        <EditText
+                            android:id="@+id/ColoniaNegocio"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:hint="Colonia del negocio" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Direccion del negocio"/>
+
+                        <EditText
+                            android:id="@+id/DireccionNegocio"
+                            android:layout_width="match_parent"
+                            android:layout_height="56dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="5dp"
+                            android:hint="Direccion del negocio" />
+
+                    </LinearLayout>
+                </ScrollView>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Categiría del negocio: Elija una categoría " />
+
+                <TextView
+                    android:id="@+id/CategoriaSeleccionada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="- - -"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+                <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="140dp"
+                  android:orientation="horizontal"
+                  android:layout_marginBottom="10dp">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/CategoriasExistentes"
+                        android:layout_width="222dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/sombra"
+                        android:elevation="6dp"
+                        android:fadeScrollbars="false"
+                        android:text="prueba" />
+
+
+                    <Button
+                        android:id="@+id/AgregarCategoria"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nueva Categoría" />
+              </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:orientation="vertical"
+                    android:id="@+id/contenedorCategoria">
+                      <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nombre de la categoría: "/>
+
+                          <EditText
+                              android:id="@+id/NombreCategoria"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:hint="Categoria. . ."
+                              tools:ignore="TouchTargetSizeCheck" />
+                      </LinearLayout>
+
+                      <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                          <TextView
+                              android:layout_width="123dp"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:text="Imagen de la categoria:" />
+
+                          <EditText
+                              android:id="@+id/urlImagenCategoria"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:layout_weight="1"
+                              android:ems="10"
+                              android:hint="Url de la imagen"
+                              android:inputType="textPersonName"
+                              tools:ignore="TouchTargetSizeCheck" />
+
+                      </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:id="@+id/CerrarCategoria"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cancelar"
+                            tools:ignore="TouchTargetSizeCheck" />
+                        <Button
+                            android:id="@+id/GuardarCategoria"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:text="Añadir categoria"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/RegistrarVendedor"
+                        android:layout_width="130dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:backgroundTint="#0D06D1"
+                        android:minHeight="48dp"
+                        android:text="Guardar"
+                        app:srcCompat="@drawable/icono_agregarusuario"
+                        app:tint="#FFFFFF"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

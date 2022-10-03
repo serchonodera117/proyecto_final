@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/estiloMisNegocioPerfil"
+    android:layout_width="160dp"
+    android:layout_height="223dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="5dp"
+    card_view:cardBackgroundColor="#FFFF"
+    card_view:cardElevation="6dp"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/consultaMiImagenProducto"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            card_view:srcCompat="@color/design_default_color_secondary_variant" />
+
+        <TextView
+            android:id="@+id/consultaMiProducto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nombre Producto"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColorHint="#000000" />
+
+        <TextView
+            android:id="@+id/consultaNombreMiNegocio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Nombre Negocio"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/consultaMiPrecio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="$Precio" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

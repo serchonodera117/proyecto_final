@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/botonredondeado.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_baseline_star_border_24.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_addtocarritocompras.xml" value="0.262037037037037" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_agregarusuario.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_carritocompras.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_categoria_negocio.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_cerrar_comentarios.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_comentario.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_comprar.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_estrella_votada.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_historial_ventas.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_incremento.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_mis_productos.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_productos.xml" value="0.2703125" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/icono_seleccionimagen.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/drawable/sombra.xml" value="0.26510416666666664" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_administrar_negocio.xml" value="0.16" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_agregar_negocio_nuevo.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_historial.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_histrorial_compras.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_negocio_consultado.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_principal.xml" value="0.2" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_producto_seleccionado_cliente.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_realizar_pedidos.xml" value="0.37701149425287356" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_registro_cliente.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/activity_registro_vendedor.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/content_administrar_negocio.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_categorias_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_categorias_registro.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_comentarios.xml" value="0.36363636363636365" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_historial.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_lista_carrito.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_lista_mis_productos.xml" value="0.4" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_negocios_de_mi_perfil.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/estilo_negocios_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_agregar_producto_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_all_productos_f.xml" value="0.221875" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_carrito_compras_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_editar_borrar_productos_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_home_f.xml" value="0.37962962962962965" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_mi_lista_productos_f.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_perfil_f.xml" value="0.264" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/fragment_second.xml" value="0.12222222222222222" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/modal_historial_detalles.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/layout/modal_respuesta_comentario.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/sergi/AndroidStudioProjects/proyecto_final/app/src/main/res/menu/menu.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

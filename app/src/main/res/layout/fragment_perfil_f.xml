@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragmentos.Perfil_f">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/cerrarSesión"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#FFFFFF"
+                android:minWidth="32dp"
+                android:minHeight="32dp"
+                android:src="@android:drawable/ic_lock_power_off"
+                app:tint="#0112AC"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Cerrar sesión"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#0112AC" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/miImagenUsuario"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:shapeAppearance="@style/imagenredondeada"
+                tools:ignore="ImageContrastCheck"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/miNombreUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Nombre del Usuario"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <TextView
+                android:id="@+id/miTipoDeUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Tipo Usuario"
+                android:textColor="#8E8282" />
+
+            <TextView
+                android:id="@+id/miMunicipio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Municipio"
+                android:textColor="#0E0000" />
+
+            <TextView
+                android:id="@+id/miCorreo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Correo"
+                android:textColor="#8E8282" />
+
+            <TextView
+                android:id="@+id/miTelefono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:text="Telefono"
+                android:textColor="#8E8282" />
+
+            <ImageButton
+                android:id="@+id/verHistorialCompras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#FFFCFC"
+                android:layout_gravity="right"
+                android:layout_marginRight="45dp"
+                android:src="@android:drawable/ic_menu_recent_history"
+                tools:ignore="SpeakableTextPresentCheck"
+                app:tint="#130A68" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Historial de compras"
+                android:textSize="10sp"
+                android:layout_gravity="right"
+                android:layout_marginRight="25dp"/>
+
+            <LinearLayout
+                android:id="@+id/accesoNegocios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/vistaNegocios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="40dp"
+                    android:background="#FFFFFF"
+                    android:minWidth="48dp"
+                    android:minHeight="48dp"
+                    android:src="?attr/actionModePasteDrawable"
+                    app:tint="#160FD8"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="35dp"
+                    android:text="Mis Negocios"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textSize="10sp" />
+
+
+                <!--Layout que desaparece al oprimir el botón de mis negocios-->
+                <LinearLayout
+                    android:id="@+id/misNegociosMiPerfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/verHistorialVentas"
+                        android:layout_width="53dp"
+                        android:layout_height="48dp"
+                        android:background="#FFFFFF"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="43dp"
+                        android:src="@drawable/icono_historial_ventas"
+                        app:tint="#0A2780"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="25dp"
+                        android:textSize="10sp"
+                        android:text="Historial de ventas"/>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listadoMisNegocios"
+                        android:layout_width="match_parent"
+                        android:layout_height="140dp"
+                        android:layout_marginLeft="35dp"
+                        android:layout_marginRight="35dp">
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+                    <ImageButton
+                        android:id="@+id/formularioAgregarNegocio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="35dp"
+                        android:background="#FFFFFF"
+                        android:minWidth="48dp"
+                        android:minHeight="48dp"
+                        android:src="@android:drawable/ic_menu_add"
+                        app:tint="#660CF6"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
